@@ -1,0 +1,22 @@
+{
+  "name": "joelgeorgev.github.io",
+  "version": "1.0.0",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": "https://github.com/joelgeorgev/joelgeorgev.github.io",
+  "author": "Joel George V",
+  "homepage": "https://joelgeorgev.github.io/",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons": "^4.9.1"
+  }
+}
