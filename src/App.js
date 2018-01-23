@@ -4,7 +4,7 @@ import 'tachyons/css/tachyons.min.css';
 export class App extends React.PureComponent {
   render() {
     return (
-      <div>
+      <div className='b'>
         Joel George V
       </div>
     );
