@@ -1,5 +1,5 @@
 {
-  "name": "joelgeorgev.github.io",
+  "name": "resume",
   "version": "1.0.0",
   "dependencies": {
     "react": "^16.2.0",
@@ -10,13 +10,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "repository": "https://github.com/joelgeorgev/joelgeorgev.github.io",
+  "repository": "https://github.com/joelgeorgev/resume",
   "author": "Joel George V",
-  "homepage": "https://joelgeorgev.github.io/",
+  "homepage": "https://joelgeorgev.github.io/resume",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^1.1.0",
     "tachyons": "^4.9.1"
   }
 }
