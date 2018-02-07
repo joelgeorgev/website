@@ -22,5 +22,9 @@
     "gh-pages": "^1.1.0",
     "react-test-renderer": "^16.2.0",
     "tachyons": "^4.9.1"
-  }
+  },
+  "keywords": [
+    "React",
+    "reactjs"
+  ]
 }
