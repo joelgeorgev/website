@@ -1,5 +1,5 @@
 {
-  "name": "resume",
+  "name": "profile",
   "version": "1.0.0",
   "dependencies": {
     "react": "^16.2.0",
@@ -14,9 +14,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "repository": "https://github.com/joelgeorgev/resume",
+  "repository": "https://github.com/joelgeorgev/profile",
   "author": "Joel George V",
-  "homepage": "https://joelgeorgev.github.io/resume",
+  "homepage": "https://joelgeorgev.github.io/profile",
   "license": "MIT",
   "devDependencies": {
     "gh-pages": "^1.1.0",

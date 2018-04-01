@@ -1,8 +1,8 @@
-# My Resume
+# My Profile
 
-[![Build Status](https://travis-ci.org/joelgeorgev/resume.svg?branch=master)](https://travis-ci.org/joelgeorgev/resume)
+[![Build Status](https://travis-ci.org/joelgeorgev/profile.svg?branch=master)](https://travis-ci.org/joelgeorgev/profile)
 
-Check it out [here](https://joelgeorgev.github.io/resume).
+Check it out [here](https://joelgeorgev.github.io/profile).
 
 ## License
 MIT
