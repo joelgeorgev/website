@@ -2,8 +2,33 @@
 
 exports[`snapshot test 1`] = `
 <div
-  className="b tc"
+  className="flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
+  style={
+    Object {
+      "backgroundImage": "url(n-i-c-403589-unsplash.jpg)",
+    }
+  }
 >
-  Joel George V
+  <div
+    className="flex flex-auto flex-column justify-center items-center white"
+  >
+    <div
+      className="f2"
+    >
+      Joel George V
+    </div>
+  </div>
+  <div
+    className="flex justify-center"
+  >
+    <a
+      href="https://github.com/joelgeorgev"
+    >
+      <img
+        alt="GitHub"
+        src="github.svg"
+      />
+    </a>
+  </div>
 </div>
 `;
