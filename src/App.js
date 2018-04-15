@@ -1,7 +1,7 @@
 import React from 'react';
 import 'tachyons/css/tachyons.min.css';
 
-import background from './assets/n-i-c-403589-unsplash.jpg';
+import background from './assets/gabriele-garanzelli-529492-unsplash.jpg';
 import github from './assets/github.svg';
 
 export class App extends React.PureComponent {
