@@ -6,7 +6,6 @@ import github from './assets/github.svg';
 
 export class App extends React.PureComponent {
   render() {
-    console.log('Joel George V - Personal Website');
     return (
       <div style={{ backgroundImage: `url(${background})` }} className='flex flex-column justify-center w-100 vh-100 bg-center cover pv4'>
         <div className='flex flex-auto flex-column justify-center items-center white'>
