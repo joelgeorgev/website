@@ -1,6 +1,6 @@
 {
-  "short_name": "Profile",
-  "name": "Profile",
+  "short_name": "Joel George V",
+  "name": "Joel George V",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,6 +10,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#101825",
+  "background_color": "#101825"
 }
