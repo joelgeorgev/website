@@ -22,11 +22,30 @@ exports[`snapshot test 1`] = `
     className="flex justify-center"
   >
     <a
+      className="mh1"
       href="https://github.com/joelgeorgev"
     >
       <img
         alt="GitHub"
         src="github.svg"
+      />
+    </a>
+    <a
+      className="mh1"
+      href="https://www.instagram.com/joelgeorgev"
+    >
+      <img
+        alt="Instagram"
+        src="instagram.svg"
+      />
+    </a>
+    <a
+      className="mh1"
+      href="https://twitter.com/joelgeorgev"
+    >
+      <img
+        alt="Twitter"
+        src="twitter.svg"
       />
     </a>
   </div>
