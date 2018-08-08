@@ -1,10 +1,10 @@
-import React from 'react';
-import 'tachyons/css/tachyons.min.css';
+import React from 'react'
+import 'tachyons/css/tachyons.min.css'
 
-import background from './assets/gabriele-garanzelli-529492-unsplash.jpg';
-import github from './assets/github.svg';
-import instagram from './assets/instagram.svg';
-import twitter from './assets/twitter.svg';
+import background from './assets/gabriele-garanzelli-529492-unsplash.jpg'
+import github from './assets/github.svg'
+import instagram from './assets/instagram.svg'
+import twitter from './assets/twitter.svg'
 
 export class App extends React.PureComponent {
   render() {
@@ -25,6 +25,6 @@ export class App extends React.PureComponent {
           </a>
         </div>
       </div>
-    );
+    )
   }
 }
