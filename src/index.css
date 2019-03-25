@@ -8,6 +8,24 @@ body {
   background: #101825 url('assets/gabriele-garanzelli-529492-unsplash.webp');
 }
 
+.name {
+  transform: translateY(7%);
+  transition: opacity 2s, transform 2s;
+}
+
+.name-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social {
+  transition: opacity 1s ease 1s;
+}
+
+.social-active {
+  opacity: 1;
+}
+
 /* pacifico-regular - latin */
 @font-face {
   font-family: 'Pacifico';

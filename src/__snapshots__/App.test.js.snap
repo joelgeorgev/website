@@ -5,7 +5,8 @@ exports[`snapshot test 1`] = `
   className="bg-image flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
 >
   <div
-    className="flex flex-auto flex-column justify-center items-center white"
+    className="name o-0  
+      flex flex-auto flex-column justify-center items-center white"
   >
     <div
       className="f2"
@@ -14,7 +15,7 @@ exports[`snapshot test 1`] = `
     </div>
   </div>
   <div
-    className="flex justify-center"
+    className="social o-0  flex justify-center"
   >
     <a
       className="mh1"
