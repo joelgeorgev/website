@@ -4,6 +4,10 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
+.bg-image {
+  background: #101825 url('assets/gabriele-garanzelli-529492-unsplash.webp');
+}
+
 /* pacifico-regular - latin */
 @font-face {
   font-family: 'Pacifico';

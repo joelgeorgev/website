@@ -2,12 +2,7 @@
 
 exports[`snapshot test 1`] = `
 <div
-  className="flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
-  style={
-    Object {
-      "backgroundImage": "url(gabriele-garanzelli-529492-unsplash.jpg)",
-    }
-  }
+  className="bg-image flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
 >
   <div
     className="flex flex-auto flex-column justify-center items-center white"
