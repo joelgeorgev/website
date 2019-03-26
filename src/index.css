@@ -19,7 +19,7 @@ body {
 }
 
 .social {
-  transition: opacity 1s ease 1s;
+  transition: opacity 1s 1s;
 }
 
 .social-active {
