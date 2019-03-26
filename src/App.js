@@ -15,6 +15,10 @@ export const App = () => {
       toggleShowSocial(true)
     }
 
+    if (document.readyState === 'complete') {
+      onLoad()
+    }
+
     window.addEventListener('load', onLoad)
     return () => window.removeEventListener('load', onLoad)
   }, [])
