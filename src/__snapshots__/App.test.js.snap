@@ -1,49 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`snapshot test 1`] = `
-<div
-  className="bg-image flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
+<main
+  role="main"
 >
-  <div
-    className="name o-0  
-      flex flex-auto flex-column justify-center items-center white"
+  <section
+    className="bg-image flex flex-column justify-center w-100 vh-100 bg-center cover pv4"
   >
     <div
-      className="f2"
+      className="name o-0  
+      flex flex-auto flex-column justify-center items-center white"
     >
-      Joel George V
+      <div
+        className="f2"
+      >
+        Joel George V
+      </div>
     </div>
-  </div>
-  <div
-    className="social o-0  flex justify-center"
-  >
-    <a
-      className="mh1"
-      href="https://github.com/joelgeorgev"
+    <div
+      className="social o-0  flex justify-center"
     >
-      <img
-        alt="GitHub"
-        src="github.svg"
-      />
-    </a>
-    <a
-      className="mh1"
-      href="https://www.instagram.com/joelgeorgev"
-    >
-      <img
-        alt="Instagram"
-        src="instagram.svg"
-      />
-    </a>
-    <a
-      className="mh1"
-      href="https://twitter.com/joelgeorgev"
-    >
-      <img
-        alt="Twitter"
-        src="twitter.svg"
-      />
-    </a>
-  </div>
-</div>
+      <a
+        className="mh1"
+        href="https://github.com/joelgeorgev"
+      >
+        <img
+          alt="GitHub"
+          src="github.svg"
+        />
+      </a>
+      <a
+        className="mh1"
+        href="https://www.instagram.com/joelgeorgev"
+      >
+        <img
+          alt="Instagram"
+          src="instagram.svg"
+        />
+      </a>
+      <a
+        className="mh1"
+        href="https://twitter.com/joelgeorgev"
+      >
+        <img
+          alt="Twitter"
+          src="twitter.svg"
+        />
+      </a>
+    </div>
+  </section>
+</main>
 `;
