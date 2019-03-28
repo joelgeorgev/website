@@ -10,7 +10,7 @@ body {
 
 .name {
   transform: translateY(7%);
-  transition: opacity 2s, transform 2s;
+  transition: opacity 2s, transform ease-out 2s;
 }
 
 .name-active {
