@@ -4,9 +4,12 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
-.bg-image {
+.bg-name {
   background: #101825 url('assets/gabriele-garanzelli-529492-unsplash.webp');
-  background-attachment: fixed;
+}
+
+.bg-social {
+  background: #5f5f5f url('assets/lou-batier-365323-unsplash.webp');
 }
 
 .name {

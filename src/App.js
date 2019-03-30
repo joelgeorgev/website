@@ -5,7 +5,7 @@ import { Name, Social } from './components'
 
 export const App = () => {
   return (
-    <main role='main' className='bg-image bg-center cover'>
+    <main role='main'>
       <Name />
       <Social />
     </main>

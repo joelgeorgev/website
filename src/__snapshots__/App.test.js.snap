@@ -2,15 +2,14 @@
 
 exports[`snapshot test 1`] = `
 <main
-  className="bg-image bg-center cover"
   role="main"
 >
   <section
-    className="flex flex-column justify-center w-100 vh-100 pv4"
+    className="bg-name bg-center cover flex flex-column justify-center  w-100 vh-100 pv4"
   >
     <div
       className="name  flex flex-auto flex-column 
-      justify-center items-center white"
+        justify-center items-center white"
     >
       <div
         className="f2"
@@ -28,11 +27,11 @@ exports[`snapshot test 1`] = `
     </div>
   </section>
   <section
-    className="flex flex-column justify-center w-100 vh-100 pv4"
+    className="bg-social bg-center cover flex flex-column justify-center w-100 vh-100 pv4"
   >
     <div
       className="appear  flex flex-column justify-center 
-      items-center white ma4"
+        items-center white ma4"
     >
       <div
         className="f3"

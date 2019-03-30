@@ -20,9 +20,10 @@ export const Name = () => {
   }, [])
 
   return (
-    <section className='flex flex-column justify-center w-100 vh-100 pv4'>
+    <section className='bg-name bg-center cover flex flex-column justify-center 
+      w-100 vh-100 pv4'>
       <div className={`name ${activeStyle} flex flex-auto flex-column 
-      justify-center items-center white`}>
+        justify-center items-center white`}>
         <div className='f2'>Joel George V</div>
       </div>
       <div className={`down ${activeStyle} flex justify-center`}>
