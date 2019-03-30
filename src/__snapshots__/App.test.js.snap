@@ -6,7 +6,7 @@ exports[`snapshot test 1`] = `
   role="main"
 >
   <section
-    className="bg-name bg-center cover flex flex-column justify-center  w-100 vh-100 pv4 scroll-snap-child"
+    className="bg-name bg-center cover flex flex-column justify-center  w-100 vh-100 pv5 scroll-snap-child"
   >
     <div
       className="name  flex flex-auto flex-column 
@@ -28,7 +28,7 @@ exports[`snapshot test 1`] = `
     </div>
   </section>
   <section
-    className="bg-social bg-center cover flex flex-column justify-center w-100 vh-100 pv4 scroll-snap-child"
+    className="bg-social bg-center cover flex flex-column justify-center w-100 vh-100 pv5 scroll-snap-child"
   >
     <div
       className="appear  flex flex-column justify-center 

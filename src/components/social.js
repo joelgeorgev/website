@@ -27,7 +27,7 @@ export const Social = () => {
 
   return (
     <section className='bg-social bg-center cover flex flex-column justify-center
-      w-100 vh-100 pv4 scroll-snap-child' ref={ref}>
+      w-100 vh-100 pv5 scroll-snap-child' ref={ref}>
       <div className={`appear ${activeStyle} flex flex-column justify-center 
         items-center white ma4`}>
         <div className='f3'>Say Hi!</div>
