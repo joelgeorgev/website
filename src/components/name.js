@@ -21,7 +21,7 @@ export const Name = () => {
 
   return (
     <section className='bg-name bg-center cover flex flex-column justify-center 
-      w-100 vh-100 pv4'>
+      w-100 vh-100 pv4 scroll-snap-child'>
       <div className={`name ${activeStyle} flex flex-auto flex-column 
         justify-center items-center white`}>
         <div className='f2'>Joel George V</div>

@@ -4,6 +4,14 @@ body {
   font-family: 'Pacifico', cursive;
 }
 
+.scroll-snap-container {
+	scroll-snap-type: y mandatory;
+}
+
+.scroll-snap-child {
+  scroll-snap-align: center;
+}
+
 .bg-name {
   background: #101825 url('assets/gabriele-garanzelli-529492-unsplash.webp');
 }
