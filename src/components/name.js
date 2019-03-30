@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from 'react'
 
-import github from '../assets/github.svg'
-import instagram from '../assets/instagram.svg'
-import twitter from '../assets/twitter.svg'
+import down from '../assets/down.svg'
 
 export const Name = () => {
-  const [showName, toggleShowName] = useState(false)
-  const [showSocial, toggleShowSocial] = useState(false)
+  const [active, toggleActive] = useState(false)
+  const activeStyle = active ? 'active' : ''
 
   useEffect(() => {
     const onLoad = () => {
-      toggleShowName(true)
-      toggleShowSocial(true)
+      toggleActive(true)
     }
 
     if (document.readyState === 'complete') {
@@ -23,21 +20,13 @@ export const Name = () => {
   }, [])
 
   return (
-    <section className='bg-image flex flex-column justify-center w-100 vh-100 bg-center cover pv4'>
-      <div className={`name o-0 ${showName ? 'name-active' : ''} 
-      flex flex-auto flex-column justify-center items-center white`}>
+    <section className='flex flex-column justify-center w-100 vh-100 pv4'>
+      <div className={`name ${activeStyle} flex flex-auto flex-column 
+      justify-center items-center white`}>
         <div className='f2'>Joel George V</div>
       </div>
-      <div className={`social o-0 ${showSocial ? 'social-active' : ''} flex justify-center`}>
-        <a className='mh1' href='https://github.com/joelgeorgev'>
-          <img src={github} alt='GitHub' />
-        </a>
-        <a className='mh1' href='https://www.instagram.com/joelgeorgev'>
-          <img src={instagram} alt='Instagram' />
-        </a>
-        <a className='mh1' href='https://twitter.com/joelgeorgev'>
-          <img src={twitter} alt='Twitter' />
-        </a>
+      <div className={`down ${activeStyle} flex justify-center`}>
+        <img src={down} alt='Down' />
       </div>
     </section>
   )

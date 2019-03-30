@@ -6,24 +6,69 @@ body {
 
 .bg-image {
   background: #101825 url('assets/gabriele-garanzelli-529492-unsplash.webp');
+  background-attachment: fixed;
 }
 
 .name {
+  opacity: 0;
   transform: translateY(7%);
   transition: opacity 2s, transform ease-out 2s;
 }
 
-.name-active {
+.name.active {
   opacity: 1;
   transform: translateY(0);
 }
 
-.social {
+.down {
+  opacity: 0;
   transition: opacity 1s 1s;
 }
 
-.social-active {
+.down.active {
   opacity: 1;
+}
+
+.appear {
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.appear.active {
+  opacity: 1;
+}
+
+.github {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s 0.5s, transform ease-out 0.5s 0.5s;
+}
+
+.github.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.instagram {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s 1s, transform ease-out 0.5s 1s;
+}
+
+.instagram.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.twitter {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: opacity 0.5s 1.5s, transform ease-out 0.5s 1.5s;
+}
+
+.twitter.active {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* pacifico-regular - latin */
