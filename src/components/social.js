@@ -26,20 +26,34 @@ export const Social = () => {
   }, [])
 
   return (
-    <section className='bg-social bg-center cover flex flex-column justify-center
-      w-100 vh-100 pv5 scroll-snap-child' ref={ref}>
-      <div className={`appear ${activeStyle} flex flex-column justify-center 
-        items-center white ma4`}>
+    <section
+      className='bg-social bg-center cover flex flex-column justify-center
+      w-100 vh-100 pv5 scroll-snap-child'
+      ref={ref}
+    >
+      <div
+        className={`appear ${activeStyle} flex flex-column justify-center 
+        items-center white ma4`}
+      >
         <div className='f3'>Say Hi!</div>
       </div>
       <div className='flex justify-center'>
-        <a className={`mh1 github ${activeStyle}`} href='https://github.com/joelgeorgev'>
+        <a
+          className={`mh1 github ${activeStyle}`}
+          href='https://github.com/joelgeorgev'
+        >
           <img src={github} alt='GitHub' />
         </a>
-        <a className={`mh1 instagram ${activeStyle}`} href='https://www.instagram.com/joelgeorgev'>
+        <a
+          className={`mh1 instagram ${activeStyle}`}
+          href='https://www.instagram.com/joelgeorgev'
+        >
           <img src={instagram} alt='Instagram' />
         </a>
-        <a className={`mh1 twitter ${activeStyle}`} href='https://twitter.com/joelgeorgev'>
+        <a
+          className={`mh1 twitter ${activeStyle}`}
+          href='https://twitter.com/joelgeorgev'
+        >
           <img src={twitter} alt='Twitter' />
         </a>
       </div>
