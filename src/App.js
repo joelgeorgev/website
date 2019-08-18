@@ -1,11 +1,17 @@
 import React from 'react'
-import 'tachyons/css/tachyons.min.css'
+import styled from 'styled-components'
 
 import { Name, Social } from './components'
 
+const Main = styled.main`
+  height: 100vh;
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+`
+
 export const App = () => (
-  <main role='main' className='vh-100 overflow-y-auto scroll-snap-container'>
+  <Main role='main'>
     <Name />
     <Social />
-  </main>
+  </Main>
 )

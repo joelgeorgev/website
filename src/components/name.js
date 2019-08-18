@@ -1,10 +1,55 @@
 import React, { useState, useEffect } from 'react'
+import styled from 'styled-components'
 
+import bgImage from '../assets/gabriele-garanzelli-529492-unsplash.webp'
 import down from '../assets/down.svg'
+
+const Section = styled.section`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 4rem;
+  background: #101825 url(${bgImage});
+  background-size: cover;
+  scroll-snap-align: center;
+`
+
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  transform: translateY(7%);
+  transition: opacity 2s, transform ease-out 2s;
+  ${(props) =>
+    props.active &&
+    `
+      opacity: 1;
+      transform: translateY(0);
+    `}
+`
+
+const Header = styled.h1`
+  font-size: 2rem;
+  font-weight: normal;
+`
+
+const Footer = styled.div`
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s 1s;
+  ${(props) =>
+    props.active &&
+    `
+      opacity: 1;
+    `}
+`
 
 export const Name = () => {
   const [active, toggleActive] = useState(false)
-  const activeStyle = active ? 'active' : ''
 
   useEffect(() => {
     const onLoad = () => {
@@ -20,19 +65,13 @@ export const Name = () => {
   }, [])
 
   return (
-    <section
-      className='bg-name bg-center cover flex flex-column justify-center 
-      w-100 vh-100 pv5 scroll-snap-child'
-    >
-      <div
-        className={`name ${activeStyle} flex flex-auto flex-column 
-        justify-center items-center white`}
-      >
-        <div className='f2'>Joel George V</div>
-      </div>
-      <div className={`down ${activeStyle} flex justify-center`}>
+    <Section>
+      <Wrapper active={active}>
+        <Header>Joel George V</Header>
+      </Wrapper>
+      <Footer active={active}>
         <img src={down} alt='Down' />
-      </div>
-    </section>
+      </Footer>
+    </Section>
   )
 }
