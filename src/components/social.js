@@ -25,8 +25,8 @@ const Wrapper = styled.div`
   color: #fff;
   opacity: 0;
   transition: opacity 2s;
-  ${(props) =>
-    props.active &&
+  ${({ active }) =>
+    active &&
     `
       opacity: 1;
     `}
@@ -45,8 +45,8 @@ const Icon = styled.a`
   margin: 0 0.25rem;
   opacity: 0;
   transform: translateY(50%);
-  ${(props) => {
-    switch (props.type) {
+  ${({ type }) => {
+    switch (type) {
       case 'github':
         return 'transition: opacity 0.5s 0.5s, transform ease-out 0.5s 0.5s;'
       case 'instagram':
@@ -57,8 +57,8 @@ const Icon = styled.a`
         return ''
     }
   }}
-  ${(props) =>
-    props.active &&
+  ${({ active }) =>
+    active &&
     `
       opacity: 1;
       transform: translateY(0);

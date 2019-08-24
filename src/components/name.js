@@ -24,8 +24,8 @@ const Wrapper = styled.div`
   opacity: 0;
   transform: translateY(7%);
   transition: opacity 2s, transform ease-out 2s;
-  ${(props) =>
-    props.active &&
+  ${({ active }) =>
+    active &&
     `
       opacity: 1;
       transform: translateY(0);
@@ -41,8 +41,8 @@ const Footer = styled.div`
   text-align: center;
   opacity: 0;
   transition: opacity 1s 1s;
-  ${(props) =>
-    props.active &&
+  ${({ active }) =>
+    active &&
     `
       opacity: 1;
     `}
