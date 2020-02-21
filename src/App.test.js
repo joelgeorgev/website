@@ -1,9 +1,24 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import { render, unmountComponentAtNode } from 'react-dom'
 
 import { App } from './App'
 
-it('smoke test', () => {
-  const div = document.createElement('div')
-  ReactDOM.render(<App />, div)
+describe('App', () => {
+  beforeEach(() => {
+    window.IntersectionObserver = jest.fn(() => ({
+      observe: () => {},
+      disconnect: () => {}
+    }))
+  })
+
+  afterEach(() => {
+    jest.resetAllMocks()
+  })
+
+  test('renders', () => {
+    const container = document.createElement('div')
+    render(<App />, container)
+    unmountComponentAtNode(container)
+    container.remove()
+  })
 })
