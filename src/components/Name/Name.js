@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 
-import bgImage from '../assets/gabriele-garanzelli-529492-unsplash.webp'
-import down from '../assets/down.svg'
+import bgImage from '../../assets/gabriele-garanzelli-529492-unsplash.webp'
+import down from '../../assets/down.svg'
 
 const Section = styled.section`
   display: flex;

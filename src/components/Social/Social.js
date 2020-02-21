@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 
-import bgImage from '../assets/lou-batier-365323-unsplash.webp'
-import github from '../assets/github.svg'
-import instagram from '../assets/instagram.svg'
-import twitter from '../assets/twitter.svg'
+import bgImage from '../../assets/lou-batier-365323-unsplash.webp'
+import github from '../../assets/github.svg'
+import instagram from '../../assets/instagram.svg'
+import twitter from '../../assets/twitter.svg'
 
 const Section = styled.section`
   display: flex;
