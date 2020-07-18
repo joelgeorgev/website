@@ -97,7 +97,7 @@ export const Social = () => {
           type='github'
           href='https://github.com/joelgeorgev'
         >
-          <img src={github} alt='GitHub repository' />
+          <img src={github} alt='GitHub profile' />
         </Icon>
         <Icon
           active={active}
