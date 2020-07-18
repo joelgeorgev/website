@@ -10,7 +10,7 @@ const Main = styled.main`
 `
 
 export const App = () => (
-  <Main role='main'>
+  <Main>
     <Name />
     <Social />
   </Main>
