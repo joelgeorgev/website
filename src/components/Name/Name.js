@@ -14,7 +14,7 @@ const Section = styled.section`
   scroll-snap-align: center;
 `
 
-const Wrapper = styled.div`
+const Article = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@ const Header = styled.h1`
   font-weight: normal;
 `
 
-const Footer = styled.div`
+const Footer = styled.footer`
   text-align: center;
   opacity: 0;
   transition: opacity 1s 1s;
@@ -66,11 +66,11 @@ export const Name = () => {
 
   return (
     <Section>
-      <Wrapper active={active}>
+      <Article active={active}>
         <Header>Joel George V</Header>
-      </Wrapper>
+      </Article>
       <Footer active={active}>
-        <img src={down} alt='Down' />
+        <img src={down} alt='Down arrow' />
       </Footer>
     </Section>
   )

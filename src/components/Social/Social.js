@@ -16,7 +16,7 @@ const Section = styled.section`
   scroll-snap-align: center;
 `
 
-const Wrapper = styled.div`
+const Article = styled.article`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,10 +33,11 @@ const Wrapper = styled.div`
 `
 
 const Header = styled.h1`
+  font-size: 1.5rem;
   font-weight: normal;
 `
 
-const Footer = styled.div`
+const Footer = styled.footer`
   display: flex;
   justify-content: center;
 `
@@ -87,30 +88,30 @@ export const Social = () => {
 
   return (
     <Section ref={ref}>
-      <Wrapper active={active}>
+      <Article active={active}>
         <Header>Say Hi!</Header>
-      </Wrapper>
+      </Article>
       <Footer>
         <Icon
           active={active}
           type='github'
           href='https://github.com/joelgeorgev'
         >
-          <img src={github} alt='GitHub' />
+          <img src={github} alt='GitHub repository' />
         </Icon>
         <Icon
           active={active}
           type='instagram'
           href='https://www.instagram.com/joelgeorgev'
         >
-          <img src={instagram} alt='Instagram' />
+          <img src={instagram} alt='Instagram profile' />
         </Icon>
         <Icon
           active={active}
           type='twitter'
           href='https://twitter.com/joelgeorgev'
         >
-          <img src={twitter} alt='Twitter' />
+          <img src={twitter} alt='Twitter profile' />
         </Icon>
       </Footer>
     </Section>
