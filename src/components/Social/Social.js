@@ -92,27 +92,29 @@ export const Social = () => {
         <Header>Say Hi!</Header>
       </Article>
       <Footer>
-        <Icon
-          active={active}
-          type='github'
-          href='https://github.com/joelgeorgev'
-        >
-          <img src={github} alt='GitHub profile' />
-        </Icon>
-        <Icon
-          active={active}
-          type='instagram'
-          href='https://www.instagram.com/joelgeorgev'
-        >
-          <img src={instagram} alt='Instagram profile' />
-        </Icon>
-        <Icon
-          active={active}
-          type='twitter'
-          href='https://twitter.com/joelgeorgev'
-        >
-          <img src={twitter} alt='Twitter profile' />
-        </Icon>
+        <address>
+          <Icon
+            active={active}
+            type='github'
+            href='https://github.com/joelgeorgev'
+          >
+            <img src={github} alt='GitHub profile' />
+          </Icon>
+          <Icon
+            active={active}
+            type='instagram'
+            href='https://www.instagram.com/joelgeorgev'
+          >
+            <img src={instagram} alt='Instagram profile' />
+          </Icon>
+          <Icon
+            active={active}
+            type='twitter'
+            href='https://twitter.com/joelgeorgev'
+          >
+            <img src={twitter} alt='Twitter profile' />
+          </Icon>
+        </address>
       </Footer>
     </Section>
   )
