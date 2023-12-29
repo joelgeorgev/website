@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "check": "npm run check:format",
+    "check:format": "prettier --check \"./**/*.{js,json,yml,md}\""
   },
   "repository": {
     "type": "git",
@@ -13,6 +15,7 @@
   "license": "MIT",
   "homepage": "https://github.com/joelgeorgev/website",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "prettier": "^3.1.1"
   }
 }
