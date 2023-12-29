@@ -5,7 +5,7 @@
     "start": "eleventy --serve",
     "build": "eleventy",
     "check": "npm run check:format",
-    "check:format": "prettier --check \"./**/*.{js,json,yml,md}\""
+    "check:format": "prettier --check \"./**/*.{html,js,json,yml,md}\""
   },
   "repository": {
     "type": "git",
