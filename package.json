@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy",
+    "build": "eleventy --pathprefix=/website/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d _site",
     "check": "npm run check:format",
